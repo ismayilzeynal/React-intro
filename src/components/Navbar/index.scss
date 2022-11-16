@@ -1,0 +1,40 @@
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 216, 216);
+    padding-left: 30px;
+
+    .nav-logo{
+        width: 20%;
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-size: 26px;
+        }
+    }
+
+    .nav-right{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        ul{
+            width: 60%;
+            display: flex;
+            justify-content: flex-end;
+            
+            li{
+                padding: 25px 60px;
+                background-color: rgba(133, 196, 117, 0.496);
+                cursor: pointer;
+
+                &:hover{
+                    background-color: aquamarine;
+            }
+            }
+        }
+    }
+}
